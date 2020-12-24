@@ -1,0 +1,48 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "hello-express",
+  "version": "0.0.1",
+  "description": "A simple Node app built on Express, instantly up and running.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "canvas": "^2.6.1",
+    "chalk": "^3.0.0",
+    "common-tags": "^1.8.0",
+    "discord.js": "^11.5.1",
+    "express": "^4.17.1",
+    "fs": "^0.0.2",
+    "i": "^0.3.6",
+    "instagram-user": "^2.0.1",
+    "jimp": "^0.9.6",
+    "modules": "^0.4.0",
+    "moment": "^2.24.0",
+    "moment-duration-format": "^2.2.2",
+    "ms": "^2.1.2",
+    "node-fetch": "^2.6.0",
+    "node-opus": "^0.3.3",
+    "node-superfetch": "^0.1.10",
+    "npm": "^6.14.3",
+    "parse-ms": "^2.1.0",
+    "quick.db": "^7.0.0-b22",
+    "request": "^2.88.2",
+    "simple-youtube-api": "^5.2.1",
+    "ytdl-core": "^2.1.7"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
